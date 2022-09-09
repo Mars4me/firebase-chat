@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Typography color={"white"}>Вийти</Typography>
               </Button>
             ) : (
-              <NavLink to={LOGIN_ROUTE}>
+              <NavLink to={LOGIN_ROUTE} style={{textDecoration: "none"}}>
                 <Button variant={"outlined"} color={"secondary"}>
                   {" "}
                   <Typography color={"white"} >Логін</Typography>
